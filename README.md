@@ -14,14 +14,24 @@ Este proyecto establece un **Plan de Gobernanza Industrial** diseñado específi
 
 ## 🗺️ 2. Arquitectura del Sistema (Flujo End-to-End de 4 Fases)
  
-|FASE 1: SUELO FÍSICO (Edge IoT)   |  
-+------------------------------------+  
-|FASE 2: CEREBRO DIGITAL (BTP)  ||  * Sincronización Horaria NTP | * SAP BTP Integration Suite || * Extracción MWh PPA vs Consumo | ───►| * Validación de Reglas RFNBO UE || * Monitoreo Desgaste Técnico (Hef)|    |  * Gatekeeper Pureza ISO 14687 || * Supervisión Térmica SAE J2601 |  * Supervisión de Alertas Críticas                        
-+------------------------------------+
++------------------------------------+      +------------------------------------+
 
-|FASE 4: SALIDA BLINDADA (SAP SD)  |  
-+------------------------------------+   
-|FASE 3: NÚCLEO LOGÍSTICO (SAP MM) || * Regla de Búsqueda VCH1 activa | * Clase de Lote: H2_RENEWABLE || * Bloqueo Automático Preventivo | ◄─── | * Gemelo Digital de la Molécula || * Emisión del Pasaporte Digital   |  * Inyección Inmutable (AUSP/MCHA) || de Producto (DPP) para Factura  | * Vinculación de Equipos (OBJK)    
+|  FASE 1: SUELO FÍSICO (Edge IoT)   |      |  FASE 2: CEREBRO DIGITAL (BTP)     |
+|  * Sincronización Horaria NTP      |      |  * SAP BTP Integration Suite       |
+|  * Extracción MWh PPA vs Consumo   | ───► |  * Validación de Reglas RFNBO UE   |
+|  * Monitoreo Desgaste Técnico (Hef)|      |  * Gatekeeper Pureza ISO 14687     |
+|  * Supervisión Térmica SAE J2601   |      |  * Supervisión de Alertas Críticas |
++------------------------------------+      +------------------------------------+
+                                                               │
+                                                               ▼
++------------------------------------+      +------------------------------------+
+
+|  FASE 4: SALIDA BLINDADA (SAP SD)  |      |  FASE 3: NÚCLEO LOGÍSTICO (SAP MM) |
+|  * Regla de Búsqueda VCH1 activa   |      |  * Clase de Lote: H2_RENEWABLE     |
+|  * Bloqueo Automático Preventivo   | ◄─── |  * Gemelo Digital de la Molécula   |
+|  * Emisión del Pasaporte Digital   |      |  * Inyección Inmutable (AUSP/MCHA) |
+|    de Producto (DPP) para Factura  |      |  * Vinculación de Equipos (OBJK)   |
++------------------------------------+      +------------------------------------+ 
 
 
 ## 🛠️ 3. Estructura del Pipeline de Cumplimiento Técnico
