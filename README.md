@@ -1,4 +1,4 @@
-markdown# SAP BTP Hydrogen Digital Compliance Architect 🌿⚡
+SAP BTP Hydrogen Digital Compliance Architect 🌿⚡
 
 [![SAP Certified MM](https://shields.io)](https://sap.com)
 [![SAP Certified BTP](https://shields.io)](https://sap.com)
@@ -11,18 +11,17 @@ En el despliegue de infraestructuras de hidrógeno verde, la excelencia operativ
 
 Este proyecto establece un **Plan de Gobernanza Industrial** diseñado específicamente para mitigar el riesgo de *Negligencia Industrial* tipificado en el Artículo 15 del reglamento vigente [1.1]. Al blindar la trazabilidad síncrona desde el electrolizador hasta la expedición comercial, transformamos el cumplimiento normativo en un activo estratégico que garantiza la *Accountability* directiva, la seguridad operativa y la viabilidad financiera (asegurando el acceso a subvenciones europeas bajo las reglas horarias RFNBO) [1.1].
 
----
 
 ## 🗺️ 2. Arquitectura del Sistema (Flujo End-to-End de 4 Fases)
-
-Usa el código con precaución.+------------------------------------+    
-+------------------------------------+| 
-FASE 1: SUELO FÍSICO (Edge IoT)   |  
-|  FASE 2: CEREBRO DIGITAL (BTP)     ||  * Sincronización Horaria NTP      |      |  * SAP BTP Integration Suite       ||  * Extracción MWh PPA vs Consumo   | ───► |  * Validación de Reglas RFNBO UE   ||  * Monitoreo Desgaste Técnico (Hef)|      |  * Gatekeeper Pureza ISO 14687     ||  * Supervisión Térmica SAE J2601   |      |  * Supervisión de Alertas Críticas |+------------------------------------+      +------------------------------------+│▼+------------------------------------+   
+ 
+|FASE 1: SUELO FÍSICO (Edge IoT)   |  
++------------------------------------+  
+|FASE 2: CEREBRO DIGITAL (BTP)  ||  * Sincronización Horaria NTP | * SAP BTP Integration Suite || * Extracción MWh PPA vs Consumo | ───►| * Validación de Reglas RFNBO UE || * Monitoreo Desgaste Técnico (Hef)|    |  * Gatekeeper Pureza ISO 14687 || * Supervisión Térmica SAE J2601 |  * Supervisión de Alertas Críticas                        
 +------------------------------------+
-|FASE 4: SALIDA BLINDADA (SAP SD)  |   
-| FASE 3: NÚCLEO LOGÍSTICO (SAP MM) ||  * Regla de Búsqueda VCH1 activa   |      |  * Clase de Lote: H2_RENEWABLE     ||  * Bloqueo Automático Preventivo   | ◄─── |  * Gemelo Digital de la Molécula   ||  * Emisión del Pasaporte Digital   |      |  * Inyección Inmutable (AUSP/MCHA) ||    de Producto (DPP) para Factura  |      |  * Vinculación de Equipos (OBJK)   |+------------------------------------+      +------------------------------------+
----
+|FASE 4: SALIDA BLINDADA (SAP SD)  |  
++------------------------------------+   
+|FASE 3: NÚCLEO LOGÍSTICO (SAP MM) || * Regla de Búsqueda VCH1 activa | * Clase de Lote: H2_RENEWABLE || * Bloqueo Automático Preventivo | ◄─── | * Gemelo Digital de la Molécula || * Emisión del Pasaporte Digital   |  * Inyección Inmutable (AUSP/MCHA) || de Producto (DPP) para Factura  | * Vinculación de Equipos (OBJK)    
+
 
 ## 🛠️ 3. Estructura del Pipeline de Cumplimiento Técnico
 
@@ -66,7 +65,7 @@ La gobernanza del activo se consolida a nivel ejecutivo en **SAP Sustainability 
 ## 💼 5. Perfil Profesional del Autor
 
 Este portafolio técnico refleja capacidades avanzadas de arquitectura de soluciones y consultoría de procesos en entornos industriales regulados:
-*   **Sistemas Core:** SAP MM Certificado / SAP BTP Integration Certificado / SAP SD (Especialización Logística en camino) [4.1].
+*   **Sistemas Core:** SAP MM Certificado / SAP BTP Integration Certificado / SAP SD [4.1].
 *   **Filosofía de Arquitectura:** Desacoplamiento Clean Core, Orquestación IoT Cloud, Gobernanza de Datos de Sostenibilidad (SCT) y Blindaje Legal Automatizado.
 
 ---
